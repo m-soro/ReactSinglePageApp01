@@ -38,3 +38,13 @@ h6 {
 .Header .active {
   color: aqua;
 }
+
+@media screen and (max-width: 600px) {
+  .ProjectCard {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+}
