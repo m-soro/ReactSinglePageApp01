@@ -39,6 +39,11 @@ h6 {
   color: aqua;
 }
 
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  --swiper-navigation-size: 20px;
+}
+
 @media screen and (max-width: 600px) {
   .ProjectCard {
     width: 95%;
