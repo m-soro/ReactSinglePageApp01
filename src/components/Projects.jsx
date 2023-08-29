@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="ProjectContainer">
         {ProjectData.map((project) => (
           <article className="ProjectCard" key={project.id}>
-            <header>{project.header}</header>
+            <header>{project.projectName}</header>
             <div className="ProjectBody">
               <swiper-container
                 slides-per-view="1"
@@ -19,17 +19,12 @@ export default function Projects() {
                 navigation="true"
                 pagination="true"
               >
-                <swiper-slide>
-                  <img src={project.body.image} alt="" />
-                </swiper-slide>
-                <swiper-slide>
-                  <img src={project.body.image} alt="" />
-                </swiper-slide>
-                <swiper-slide>
-                  <img src={project.body.image} alt="" />
-                </swiper-slide>
+                {project.body.images.map((image) => (
+                  <swiper-slide key={project.id}>
+                    <img src={image} alt={project.projectName} />
+                  </swiper-slide>
+                ))}
               </swiper-container>
-
               <div className="ProjectDetails">
                 <p>{project.body.info}</p>
               </div>
@@ -37,7 +32,9 @@ export default function Projects() {
             <footer className="StackBox">
               <div className="RepoInfoDiv">{project.footer}</div>
 
-              <button className="outline">Repo Link</button>
+              <button className="outline">
+                <a href="#">Repo Link</a>{" "}
+              </button>
             </footer>
           </article>
         ))}

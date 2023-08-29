@@ -1,9 +1,16 @@
 export const ProjectData = [
   {
     id: 1,
-    header: "project name",
+    projectName: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
@@ -13,9 +20,13 @@ export const ProjectData = [
   },
   {
     id: 2,
-    header: "project name",
+    projectName: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
@@ -27,7 +38,11 @@ export const ProjectData = [
     id: 3,
     header: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
@@ -37,9 +52,13 @@ export const ProjectData = [
   },
   {
     id: 4,
-    header: "project name",
+    projectName: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
@@ -49,9 +68,13 @@ export const ProjectData = [
   },
   {
     id: 5,
-    header: "project name",
+    projectName: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
@@ -62,9 +85,13 @@ export const ProjectData = [
   },
   {
     id: 6,
-    header: "project name",
+    projectName: "project name",
     body: {
-      image: "https://i.imgur.com/TGZKfoI.png",
+      images: [
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+        "https://i.imgur.com/TGZKfoI.png",
+      ],
       info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
