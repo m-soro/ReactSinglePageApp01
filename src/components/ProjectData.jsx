@@ -35,22 +35,6 @@ export const ProjectData = [
     repo: "#",
   },
   {
-    id: 3,
-    header: "project name",
-    body: {
-      images: [
-        "https://i.imgur.com/TGZKfoI.png",
-        "https://i.imgur.com/TGZKfoI.png",
-        "https://i.imgur.com/TGZKfoI.png",
-      ],
-      info: `Lorem ipsum dolor sit amet consectetur adipisicing elit
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    },
-    footer: "Lorem ipsum lorem ipsum",
-    repo: "#",
-  },
-  {
     id: 4,
     projectName: "project name",
     body: {

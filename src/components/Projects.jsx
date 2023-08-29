@@ -19,8 +19,8 @@ export default function Projects() {
                 navigation="true"
                 pagination="true"
               >
-                {project.body.images.map((image) => (
-                  <swiper-slide key={project.id}>
+                {project.body.images.map((image, index) => (
+                  <swiper-slide key={index}>
                     <img src={image} alt={project.projectName} />
                   </swiper-slide>
                 ))}

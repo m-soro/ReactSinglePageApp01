@@ -39,6 +39,30 @@ h6 {
   color: aqua;
 }
 
+details summary::after {
+  transform: rotate(0);
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+/* nav details[role="list"] summary + ul,
+nav li[role="list"] > ul {
+  min-width: -moz-fit-content;
+  width: 8rem;
+  border-radius: var(--border-radius);
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
 swiper-container::part(button-prev),
 swiper-container::part(button-next) {
   --swiper-navigation-size: 20px;
